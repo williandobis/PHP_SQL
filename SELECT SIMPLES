@@ -1,0 +1,10 @@
+#FAZER A CONEXAO ANTES
+# $conn > variavel na conexao
+  
+  $sql_project = "SELECT * FROM `project_cp` WHERE nome_project = '$nome_project'";
+	$result = mysqli_query($conn, $sql_project);
+	if (mysqli_num_rows($result) > 0) {
+	  while($row = mysqli_fetch_assoc($result)) {
+	    		$id_project = $row["id_project"];
+	  }
+	} 
