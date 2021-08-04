@@ -1,0 +1,16 @@
+<div class="col-sm-6">
+    <div class="form-group">
+        <label for="inputNivel">Nível de Usuário</label>
+        <select class="form-control" name="nivel_user" id="nivel_user">
+            <?php
+            $sql_nivel = "SELECT * FROM `permissoes_cp`";
+                $result = mysqli_query($conn, $sql_nivel);
+                if (mysqli_num_rows($result) > 0) {
+                while($row = mysqli_fetch_assoc($result)) {
+                    echo '<option value="'.$row["id_permissao"].'">'.$row["nome_permissao"].'</option>';       
+                }
+            } 
+            ?>
+        </select>
+    </div>
+</div> 
