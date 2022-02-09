@@ -1,0 +1,3 @@
+    if( $mail->Send() ){
+        echo  "<script>alert('Email enviado com Sucesso!'); window.location='index.php'; </script>";
+    }
