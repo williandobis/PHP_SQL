@@ -1,0 +1,6 @@
+function contagem($tabela){
+    include "conexao.php";
+    $resultado = $mysqli->query("select * from "."{$tabela}");
+    $total = $resultado->num_rows;
+    echo $total;
+}
