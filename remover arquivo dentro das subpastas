@@ -1,0 +1,2 @@
+#remover arquivo dentro das subpastas
+find . -name '*.htaccess' -type f -delete
