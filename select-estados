@@ -1,30 +1,30 @@
-<select id="estado" name="estado">
-    <option value="AC">Acre</option>
-    <option value="AL">Alagoas</option>
-    <option value="AP">Amapá</option>
-    <option value="AM">Amazonas</option>
-    <option value="BA">Bahia</option>
-    <option value="CE">Ceará</option>
-    <option value="DF">Distrito Federal</option>
-    <option value="ES">Espírito Santo</option>
-    <option value="GO">Goiás</option>
-    <option value="MA">Maranhão</option>
-    <option value="MT">Mato Grosso</option>
-    <option value="MS">Mato Grosso do Sul</option>
-    <option value="MG">Minas Gerais</option>
-    <option value="PA">Pará</option>
-    <option value="PB">Paraíba</option>
-    <option value="PR">Paraná</option>
-    <option value="PE">Pernambuco</option>
-    <option value="PI">Piauí</option>
-    <option value="RJ">Rio de Janeiro</option>
-    <option value="RN">Rio Grande do Norte</option>
-    <option value="RS">Rio Grande do Sul</option>
-    <option value="RO">Rondônia</option>
-    <option value="RR">Roraima</option>
-    <option value="SC">Santa Catarina</option>
-    <option value="SP">São Paulo</option>
-    <option value="SE">Sergipe</option>
-    <option value="TO">Tocantins</option>
-    <option value="EX">Estrangeiro</option>
+<select id="estado" name="uf_imovel" class="form-control">
+    <option value="">- Estado -</option>
+    <option value="AC" <?=$rowImovel['uf_imovel'] == "AC" ? "selected" : ""; ?> >Acre</option>
+    <option value="AL" <?=$rowImovel['uf_imovel'] == "AL" ? "selected" : ""; ?> >Alagoas</option>
+    <option value="AP" <?=$rowImovel['uf_imovel'] == "AP" ? "selected" : ""; ?> >Amapá</option>
+    <option value="AM" <?=$rowImovel['uf_imovel'] == "AM" ? "selected" : ""; ?> >Amazonas</option>
+    <option value="BA" <?=$rowImovel['uf_imovel'] == "BA" ? "selected" : ""; ?> >Bahia</option>
+    <option value="CE" <?=$rowImovel['uf_imovel'] == "CE" ? "selected" : ""; ?> >Ceará</option>
+    <option value="DF" <?=$rowImovel['uf_imovel'] == "DF" ? "selected" : ""; ?> >Distrito Federal</option>
+    <option value="ES" <?=$rowImovel['uf_imovel'] == "ES" ? "selected" : ""; ?> >Espírito Santo</option>
+    <option value="GO" <?=$rowImovel['uf_imovel'] == "GO" ? "selected" : ""; ?> >Goiás</option>
+    <option value="MA" <?=$rowImovel['uf_imovel'] == "MA" ? "selected" : ""; ?> >Maranhão</option>
+    <option value="MT" <?=$rowImovel['uf_imovel'] == "MT" ? "selected" : ""; ?> >Mato Grosso</option>
+    <option value="MS" <?=$rowImovel['uf_imovel'] == "MS" ? "selected" : ""; ?> >Mato Grosso do Sul</option>
+    <option value="MG" <?=$rowImovel['uf_imovel'] == "MG" ? "selected" : ""; ?> >Minas Gerais</option>
+    <option value="PA" <?=$rowImovel['uf_imovel'] == "PA" ? "selected" : ""; ?> >Pará</option>
+    <option value="PB" <?=$rowImovel['uf_imovel'] == "PB" ? "selected" : ""; ?> >Paraíba</option>
+    <option value="PR" <?=$rowImovel['uf_imovel'] == "PR" ? "selected" : ""; ?> >Paraná</option>
+    <option value="PE" <?=$rowImovel['uf_imovel'] == "PE" ? "selected" : ""; ?> >Pernambuco</option>
+    <option value="PI" <?=$rowImovel['uf_imovel'] == "PI" ? "selected" : ""; ?> >Piauí</option>
+    <option value="RJ" <?=$rowImovel['uf_imovel'] == "RJ" ? "selected" : ""; ?> >Rio de Janeiro</option>
+    <option value="RN" <?=$rowImovel['uf_imovel'] == "RN" ? "selected" : ""; ?> >Rio Grande do Norte</option>
+    <option value="RS" <?=$rowImovel['uf_imovel'] == "RS" ? "selected" : ""; ?> >Rio Grande do Sul</option>
+    <option value="RO" <?=$rowImovel['uf_imovel'] == "RO" ? "selected" : ""; ?> >Rondônia</option>
+    <option value="RR" <?=$rowImovel['uf_imovel'] == "RR" ? "selected" : ""; ?> >Roraima</option>
+    <option value="SC" <?=$rowImovel['uf_imovel'] == "SC" ? "selected" : ""; ?> >Santa Catarina</option>
+    <option value="SP" <?=$rowImovel['uf_imovel'] == "SP" ? "selected" : ""; ?> >São Paulo</option>
+    <option value="SE" <?=$rowImovel['uf_imovel'] == "SE" ? "selected" : ""; ?> >Sergipe</option>
+    <option value="TO" <?=$rowImovel['uf_imovel'] == "TO" ? "selected" : ""; ?> >Tocantins</option>
 </select>
